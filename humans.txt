@@ -1,0 +1,23 @@
+---
+extends: false
+---
+# The humans responsible & technology colophon
+# humanstxt.org
+
+
+# TEAM
+
+    Geoff Stokes -- Developer -- @geoffstokes
+
+# THANKS
+
+	* Jekyll team
+    * git team
+    * Panic for Transmit 4 (You guys rock)
+    * Sublime Text 2 (Seriously the best text editor in the universe)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5
+
+    Made on a Mac.

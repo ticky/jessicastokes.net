@@ -1,0 +1,49 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #00E;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 a:link, h1 a:visited {
+    color: inherit;
+}
+/* Normal Font Weight */
+body, header h1, header p {
+    font-weight: 100;
+}
+/* Medium Font Weight */
+.scaffolding h2, .scaffolding p {
+    font-weight: 200;
+}
+/* Bold Font Weight */
+strong, header h1 strong, header p strong {
+    font-weight: 400;
+}
+.scaffolding {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+header {
+    border-left: 0.2em solid #000;
+    padding-left: 0.6em;
+    padding-right: 0.8em;
+    display: inline-block;
+    text-align: left;
+}
+header h1 {
+    margin: 0;
+    font-size: 4em;
+    line-height: 0.8em;
+    display: inline-block;
+}
+header p {
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 0;
+    line-height: 1.1em;
+}
