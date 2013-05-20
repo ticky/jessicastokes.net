@@ -5,9 +5,11 @@ layout: default
 
 I **love** the web and the kinds of things we can do with emerging web technologies.
 
-I'm currently employed as a digital developer working on **ASP.NET** and **PHP**-based projects.
+I actively contribute to projects [on GitHub](https://github.com/geoffstokes), and I'm always looking for new and better ways to use technology.
 
-A selection of my [personal open-source projects](examples.html) can be viewed [here](examples.html) or you can explore my [public repositories on Github](https://github.com/geoffstokes).
+Please feel free to take a look at my [GitHub repositories](https://github.com/geoffstokes), or take a look at [a handful of my personal open-source projects](examples.html).
+
+I'm currently employed as a front-end web developer.
 
 ## Contact
 Feel free to contact me via [email](mailto:hello@geoffstokes.net) or [twitter](https://twitter.com/geoffstokes).
