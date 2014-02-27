@@ -2,16 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Redirection Page</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="author" href="humans.txt" />
-    <meta http-equiv="refresh" content="0;url={{page.location}}">
+    <title>{{ site.name }} &mdash; Redirection Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    {% include touch-icons.html %}
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="author" href="/humans.txt" />
+    <meta http-equiv="refresh" content="0;url={{page.location}}" />
   </head>
   <body>
     <div class="scaffolding">
       <h1>This page has moved.</h1>
       <p>If you are not automatically redirected, click the link below;</p>
       <p><a href="{{page.location}}">{{page.location}}</a></p>
+      {% include copyright.html %}
     </div>
     {% include google-analytics.html %}
   </body>

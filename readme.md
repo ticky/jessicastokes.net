@@ -1,10 +1,12 @@
 # Geoff Stokes' Website
 
-A (really) simple Jekyll-based site. replaces an entirely static site which existed from 2009 to 2013.
+A simple Jekyll-based site. Replaces an entirely static site which existed from 2009 to 2013.
 
 ## Building
 
-At the moment, requires nothing more than Jekyll. Just run a `jekyll build` on the main directory and you'll get the compiled site.
+Requires nothing more than a basic installation of [Jekyll](http://jekyllrb.com).
+
+Just run `jekyll serve -w` from the main directory and the site will be available on port `4000`.
 
 ## Copyright
 
