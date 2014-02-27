@@ -1,5 +1,18 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    color: #1e1e1e;
+    background-color: #fbfbfb;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
 }
 a:link, a:visited {
     text-decoration: none;
@@ -24,9 +37,9 @@ strong, header h1 strong, header p strong {
     font-weight: 400;
 }
 .scaffolding {
-    width: 400px;
-    margin: 0 auto;
+    max-width: 400px;
     text-align: center;
+    margin: 1em 0.5em;
 }
 header {
     border-left: 0.2em solid #000;
@@ -34,6 +47,11 @@ header {
     padding-right: 0.8em;
     display: inline-block;
     text-align: left;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 0;
 }
 header h1 {
     margin: 0;
@@ -46,4 +64,7 @@ header p {
     font-size: 1.25em;
     margin: 0;
     line-height: 1.1em;
+}
+.copyright {
+    margin-bottom: 0;
 }

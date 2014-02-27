@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ site.name }}{% if page.title %} &mdash; {{ page.title }}{% endif %}</title>
-    <meta name="viewport" content="width=420,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed-57x57.png" />
     <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed-72x72.png"sizes="72x72" />
     <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
     <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="author" href="humans.txt" />
+    <link rel="author" href="/humans.txt" />
   </head>
   <body>
     <div class="scaffolding">
@@ -21,7 +21,7 @@
 
       {{ content }}
 
-      <p>&copy; <span title="Site last generated {{ site.time | date_to_string }}. Powered by Jekyll.">{{ site.time | date: "%Y" }}</span> {{ site.name }}.</p>
+      <p class="copyright">&copy; <span title="Site last generated {{ site.time | date_to_string }}. Powered by Jekyll.">{{ site.time | date: "%Y" }}</span> {{ site.name }}.</p>
     </div>
     {% include google-analytics.html %}
   </body>
