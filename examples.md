@@ -92,16 +92,6 @@ Simple utility for keeping your copy of the WebKit nightly updated.
 
 [View on GitHub](https://github.com/geoffstokes/webkit-updater)
 
-### Chrome Installer
-
-Shell and AppleScript, 2013
-
-Tool for keeping old versions of Chrome around; it downloads and sandboxes the latest Chrome build from any of the release channels.
-
-Automatic updates are prevented, and each version writes to its own Application Support directory.
-
-[View on GitHub](https://github.com/geoffstokes/chrome-installer)
-
 ## Sublime Text 2 Plugins
 
 ### Hypertext Typographer

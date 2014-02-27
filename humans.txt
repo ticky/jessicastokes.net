@@ -15,10 +15,11 @@ extends: false
     * git team
     * GitHub team
     * Panic for Transmit 4 (You guys rock)
-    * Sublime Text 2 (Seriously the best text editor in the universe)
+    * Sublime Text (Seriously the best text editor in the universe)
 
 # TECHNOLOGY COLOPHON
 
-    HTML5
+    Semantic HTML 5
+    Responsive CSS 3 (with flexbox!)
 
     Made on a Mac.
