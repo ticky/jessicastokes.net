@@ -13,7 +13,6 @@ extends: false
 
     * Jekyll team
     * git team
-    * GitHub team
     * Panic for Transmit 4 (You guys rock)
     * Sublime Text (Seriously the best text editor in the universe)
 

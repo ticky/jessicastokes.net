@@ -2,6 +2,7 @@
 layout: default
 title: Example Projects
 ---
+
 ## Featured
 
 ### Dotfiles
@@ -12,15 +13,15 @@ A constantly evolving collection of configurations for my UNIX-based computers.
 
 Works across platforms with handy exclusion of settings on platforms which are incompatible with them, and supports both `zsh` and `bash`.
 
-[View on GitHub](https://github.com/geoffstokes/dotfiles)
+[View on GitLab](https://gitlab.com/geoffstokes/dotfiles)
 
-### ShowEncoding
+### Show Encoding
 
 Python, for Sublime Text 2, 2013
 
 Super simple plugin for Sublime Text 2 which shows the encoding of the current file in the status bar.
 
-[View on GitHub](https://github.com/geoffstokes/ShowEncoding)
+[View on GitLab](https://gitlab.com/geoffstokes/show-encoding)
 
 ## Javascript
 
@@ -30,7 +31,7 @@ Javascript Bookmarklets, 2013
 
 A collection of bookmarklets for manipulating page layouts, identifying page features and issues.
 
-[View on GitHub](https://github.com/geoffstokes/bookmarklets)
+[View on GitLab](https://gitlab.com/geoffstokes/bookmarklets)
 
 ### Tech Audit Bookmarklet
 
@@ -40,7 +41,7 @@ A bookmarklet which can detect many of the most popular web libraries and techno
 
 Created initially to allow for "inspecting" how sites are put together on a mobile device.
 
-[View on GitHub](https://github.com/geoffstokes/tech-audit-bookmarklet) or [Try it out](http://geoffstokes.github.io/tech-audit-bookmarklet)
+[View on GitLab](https://gitlab.com/geoffstokes/tech-audit-bookmarklet) or [Try it out](http://geoffstokes.github.io/tech-audit-bookmarklet)
 
 ### Canvas Dither
 
@@ -50,7 +51,7 @@ Uses modern web standards to accept an image and then render it in several diffe
 
 Initially written as an exercise when I discovered how the alogithm for Atkinson Dithering worked.
 
-[View on GitHub](https://github.com/geoffstokes/canvas-dither) or [View Demo](http://geoffstokes.github.com/canvas-dither/)
+[View on GitLab](https://gitlab.com/geoffstokes/canvas-dither) or [View Demo](http://geoffstokes.github.io/canvas-dither/)
 
 ### Fractal Thing
 
@@ -58,7 +59,7 @@ Javascript and HTML5 canvas, 2012
 
 Done as a programming exercise, this is a Mandelbrot fractal renderer written in HTML5 an canvas and standard Javascript.
 
-[View on GitHub](https://github.com/geoffstokes/fractal-thing) or [View Demo](http://geoffstokes.github.com/fractal-thing/)
+[View on GitLab](https://gitlab.com/geoffstokes/fractal-thing) or [View Demo](http://geoffstokes.github.io/fractal-thing/)
 
 ## Python
 
@@ -70,7 +71,7 @@ Utility for accessing information from Phidgets devices from the command line.
 
 Allows accessing digital and analogue sensors.
 
-[View on GitHub](https://github.com/geoffstokes/phidgetty)
+[View on GitLab](https://gitlab.com/geoffstokes/phidgetty)
 
 ## Shell
 
@@ -82,7 +83,7 @@ Tool for keeping old versions of Chrome around; it downloads and sandboxes the l
 
 Automatic updates are prevented, and each version writes to its own Application Support directory.
 
-[View on GitHub](https://github.com/geoffstokes/chrome-installer)
+[View on GitLab](https://gitlab.com/geoffstokes/chrome-installer)
 
 ### WebKit Updater
 
@@ -90,7 +91,7 @@ Shell, 2013
 
 Simple utility for keeping your copy of the WebKit nightly updated.
 
-[View on GitHub](https://github.com/geoffstokes/webkit-updater)
+[View on GitLab](https://gitlab.com/geoffstokes/webkit-updater)
 
 ## Sublime Text 2 Plugins
 
@@ -100,7 +101,7 @@ Python, for Sublime Text 2, 2013
 
 A Sublime Text 2 plugin which highlights and allows for quick replacement of potential character encoding errors in Hypertext-like documents while editing.
 
-[View on GitHub](https://github.com/geoffstokes/HypertextTypographer)
+[View on GitLab](https://gitlab.com/geoffstokes/hypertext-typographer)
 
 ### ASPX Switch
 
