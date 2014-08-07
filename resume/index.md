@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Résumé
+description: "Geoff Stokesʼ Résumé, available as a PDF"
 ---
 ## Résumé
 

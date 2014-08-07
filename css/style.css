@@ -76,7 +76,7 @@ p strong {
 .scaffolding {
     max-width: 25em;
     text-align: center;
-    margin: 1em 0.5em;
+    margin: 0 0.5em 1em 0.5em;
 }
 p {
     font-size: 1.2em;
@@ -87,11 +87,22 @@ p {
     }
 }
 header {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin-bottom: -3em;
+    text-align: left;
+    background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 10%, rgba(251,251,251,0.8) 65%, rgba(251,251,251,0) 100%);
+    pointer-events: none;
+}
+header div {
     border-left: 0.2em solid #000;
     padding-left: 0.6em;
     padding-right: 0.8em;
-    display: block;
-    text-align: left;
+    pointer-events: all;
 }
 header h1 {
     margin: 0;

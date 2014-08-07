@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Example Projects
+description: "Examples of Geoff Stokesʼ Open Source projects"
 ---
 
 ## Featured
@@ -107,7 +108,7 @@ A Sublime Text 2 plugin which highlights and allows for quick replacement of pot
 
 Python, for Sublime Text 2, 2013
 
-Plugin for work done with Microsoft's .NET web forms. Allows for quickly switching between code-behind and layout files.
+Plugin for work done with Microsoftʼs .NET web forms. Allows for quickly switching between code-behind and layout files.
 
 [View on GitHub](https://github.com/geoffstokes/HypertextTypographer)
 
