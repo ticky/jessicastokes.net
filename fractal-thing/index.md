@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: http://geoffstokes.github.io/fractal-thing/
+location: https://grapegravity.github.io/fractal-thing/
 ---

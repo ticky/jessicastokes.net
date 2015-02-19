@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: http://geoffstokes.github.io/tigersvn/
+location: https://grapegravity.github.io/tigersvn/
 ---

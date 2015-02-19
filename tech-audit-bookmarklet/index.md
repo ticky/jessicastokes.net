@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: http://geoffstokes.github.io/tech-audit-bookmarklet/
+location: https://grapegravity.github.io/tech-audit-bookmarklet/
 ---

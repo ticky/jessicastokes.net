@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: http://geoffstokes.github.io/robot-exercise/
+location: https://grapegravity.github.io/robot-exercise/
 ---

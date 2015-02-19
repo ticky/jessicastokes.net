@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: http://geoffstokes.github.io/canvas-dither/
+location: https://grapegravity.github.io/canvas-dither/
 ---

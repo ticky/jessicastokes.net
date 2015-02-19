@@ -1,4 +1,4 @@
-# Geoff Stokes' Website
+# Jessica Stokes' Website
 
 A simple Jekyll-based site. Replaces an entirely static site which existed from 2009 to 2013.
 
@@ -10,4 +10,4 @@ Just run `jekyll serve -w` from the main directory and the site will be availabl
 
 ## Copyright
 
-Site content is Copyright Geoff Stokes. You may not reuse anything without my permission.
+Site content is Copyright Jessica Stokes. You may not reuse anything without my permission.

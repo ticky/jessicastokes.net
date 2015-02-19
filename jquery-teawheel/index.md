@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: http://geoffstokes.github.io/jquery-teawheel/
+location: https://grapegravity.github.io/jquery-teawheel/
 ---

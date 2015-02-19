@@ -7,7 +7,7 @@ extends: false
 
 # TEAM
 
-    Geoff Stokes -- Developer -- @geoffstokes
+    Jessica Stokes -- Developer -- @grapegravity
 
 # THANKS
 
