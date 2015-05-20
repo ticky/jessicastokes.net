@@ -24,11 +24,11 @@ Super simple plugin for Sublime Text 2 which shows the encoding of the current f
 
 [View on GitLab](https://gitlab.com/grapegravity/show-encoding)
 
-## Javascript
+## JavaScript
 
 ### Bookmarklets
 
-Javascript Bookmarklets, 2013
+JavaScript Bookmarklets, 2013
 
 A collection of bookmarklets for manipulating page layouts, identifying page features and issues.
 
@@ -36,7 +36,7 @@ A collection of bookmarklets for manipulating page layouts, identifying page fea
 
 ### Tech Audit Bookmarklet
 
-Javascript Bookmarklet, 2013
+JavaScript Bookmarklet, 2013
 
 A bookmarklet which can detect many of the most popular web libraries and technologies and list them for you.
 
@@ -46,7 +46,7 @@ Created initially to allow for "inspecting" how sites are put together on a mobi
 
 ### Canvas Dither
 
-Javascript and HTML5 canvas, 2012
+JavaScript and HTML5 canvas, 2012
 
 Uses modern web standards to accept an image and then render it in several different ways.
 
@@ -56,9 +56,9 @@ Initially written as an exercise when I discovered how the alogithm for Atkinson
 
 ### Fractal Thing
 
-Javascript and HTML5 canvas, 2012
+JavaScript and HTML5 canvas, 2012
 
-Done as a programming exercise, this is a Mandelbrot fractal renderer written in HTML5 an canvas and standard Javascript.
+Done as a programming exercise, this is a Mandelbrot fractal renderer written in HTML5 an canvas and standard JavaScript.
 
 [View on GitLab](https://gitlab.com/grapegravity/fractal-thing) or [View Demo](https://grapegravity.github.io/fractal-thing/)
 
