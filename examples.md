@@ -6,6 +6,14 @@ description: "Examples of Jessica Stokesʼ Open Source projects"
 
 ## Featured
 
+### Macropod Components
+
+ReactJS, 2014 - Present
+
+A library of UI components that we use at Macropod, which I'm heavily involved in the development of.
+
+[View on GitHub](https://github.com/macropodhq/macropod-components)
+
 ### Dotfiles
 
 Various, 2012 - Present
