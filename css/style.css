@@ -1,25 +1,33 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  min-height: 100%;
   min-height: 100vh;
   margin: 0;
   color: #1e1e1e;
   background-color: #fbfbfb;
-  font-size: 14px;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+}
+
+body,
+header {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
   -webkit-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-}
-
-@media (min-width: 480px) {
-  body {
-    font-size: 16px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -34,12 +42,14 @@ body {
   }
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none;
   color: #894bf4;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
@@ -56,72 +66,11 @@ h1 {
   }
 }
 
-h1 a:link, h1 a:visited {
-  color: inherit;
-}
-
-code, pre {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-/* Normal Font Weight */
-body, header h1, header p {
-  font-weight: 200;
-}
-
-@media (min-width: 480px) {
-  body, header h1, header p {
-    font-weight: 100;
-  }
-}
-
-/* Medium Font Weight */
-.scaffolding h2, .scaffolding p {
-  font-weight: 400;
-}
-
-@media (min-width: 480px) {
-  .scaffolding h2, .scaffolding p {
-    font-weight: 200;
-  }
-}
-
-/* Bold Font Weight */
-strong, header h1 strong, header p strong {
-  font-weight: 500;
-}
-
-p strong {
-  font-weight: 600;
-}
-
-@media (min-width: 480px) {
-  strong, p strong, header h1 strong, header p strong {
-    font-weight: 400;
-  }
-}
-
-.scaffolding {
-  max-width: 28em;
-  text-align: center;
-  margin: 0 0.5em 1em 0.5em;
-}
-
-p {
-  font-size: 1.2em;
-}
-
-@media (min-width: 480px) {
-  p {
-    font-size: 1em;
-  }
-}
-
 header {
-  display: block;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  width: 100%;
   padding-top: 1em;
   padding-bottom: 3em;
   margin-bottom: -3em;
@@ -131,18 +80,38 @@ header {
 }
 
 header div {
-  border-left: 0.2em solid #000;
-  padding-left: 0.6em;
-  padding-right: 0.8em;
   pointer-events: all;
+}
+
+header h1 {
+  text-indent: .1em;
+}
+
+header h1 a:link,
+header h1 a:visited {
+  color: inherit;
 }
 
 header p {
   font-size: 1.25em;
   margin: 0;
   line-height: 1.1em;
+  text-indent: .8em;
+}
+
+.scaffolding {
+  max-width: 28em;
+  text-align: justify;
+  margin: 0 0.5em 4em 0.5em;
+}
+
+code,
+pre {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .copyright {
+  font-size: .9em;
+  text-align: center;
   margin-bottom: 0;
 }
