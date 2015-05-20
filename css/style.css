@@ -1,125 +1,148 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    min-height: 100vh;
-    margin: 0;
-    color: #1e1e1e;
-    background-color: #fbfbfb;
-    font-size: 14px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  color: #1e1e1e;
+  background-color: #fbfbfb;
+  font-size: 14px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
 }
+
 @media (min-width: 480px) {
-    body {
-        font-size: 16px;
-    }
+  body {
+    font-size: 16px;
+  }
 }
+
 @media (min-width: 768px) {
-    body {
-        font-size: 18px;
-    }
+  body {
+    font-size: 18px;
+  }
 }
+
 @media (min-width: 960px) and (min-height: 768px) {
-    body {
-        font-size: 20px;
-    }
+  body {
+    font-size: 20px;
+  }
 }
+
 a:link, a:visited {
-    text-decoration: none;
-    color: #894bf4;
+  text-decoration: none;
+  color: #894bf4;
 }
-a:hover {
-    text-decoration: underline;
+
+a:hover, a:focus {
+  text-decoration: underline;
 }
+
 h1 {
-    margin: 0;
-    font-size: 3em;
-    line-height: 0.85em;
-    display: inline-block;
+  margin: 0;
+  font-size: 3em;
+  line-height: 0.85em;
+  display: inline-block;
 }
+
 @media (min-width: 480px) {
-    h1 {
-        font-size: 4em;
-    }
+  h1 {
+    font-size: 4em;
+  }
 }
+
 h1 a:link, h1 a:visited {
-    color: inherit;
+  color: inherit;
 }
+
 code, pre {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
 /* Normal Font Weight */
 body, header h1, header p {
-    font-weight: 200;
+  font-weight: 200;
 }
+
 @media (min-width: 480px) {
-    body, header h1, header p {
-        font-weight: 100;
-    }
+  body, header h1, header p {
+    font-weight: 100;
+  }
 }
+
 /* Medium Font Weight */
 .scaffolding h2, .scaffolding p {
-    font-weight: 400;
+  font-weight: 400;
 }
+
 @media (min-width: 480px) {
-    .scaffolding h2, .scaffolding p {
-        font-weight: 200;
-    }
+  .scaffolding h2, .scaffolding p {
+    font-weight: 200;
+  }
 }
+
 /* Bold Font Weight */
 strong, header h1 strong, header p strong {
-    font-weight: 500;
+  font-weight: 500;
 }
+
 p strong {
-    font-weight: 600;
+  font-weight: 600;
 }
+
 @media (min-width: 480px) {
-    strong, p strong, header h1 strong, header p strong {
-        font-weight: 400;
-    }
+  strong, p strong, header h1 strong, header p strong {
+    font-weight: 400;
+  }
 }
+
 .scaffolding {
-    max-width: 28em;
-    text-align: center;
-    margin: 0 0.5em 1em 0.5em;
+  max-width: 28em;
+  text-align: center;
+  margin: 0 0.5em 1em 0.5em;
 }
+
 p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
+
 @media (min-width: 480px) {
-    p {
-        font-size: 1em;
-    }
+  p {
+    font-size: 1em;
+  }
 }
+
 header {
-    display: block;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding-top: 1em;
-    padding-bottom: 3em;
-    margin-bottom: -3em;
-    text-align: left;
-    background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 10%, rgba(251,251,251,0.8) 65%, rgba(251,251,251,0) 100%);
-    pointer-events: none;
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  margin-bottom: -3em;
+  text-align: left;
+  background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 10%, rgba(251,251,251,0.8) 65%, rgba(251,251,251,0) 100%);
+  pointer-events: none;
 }
+
 header div {
-    border-left: 0.2em solid #000;
-    padding-left: 0.6em;
-    padding-right: 0.8em;
-    pointer-events: all;
+  border-left: 0.2em solid #000;
+  padding-left: 0.6em;
+  padding-right: 0.8em;
+  pointer-events: all;
 }
+
 header p {
-    font-size: 1.25em;
-    margin: 0;
-    line-height: 1.1em;
+  font-size: 1.25em;
+  margin: 0;
+  line-height: 1.1em;
 }
+
 .copyright {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }

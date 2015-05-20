@@ -42,7 +42,7 @@ A bookmarklet which can detect many of the most popular web libraries and techno
 
 Created initially to allow for "inspecting" how sites are put together on a mobile device.
 
-[View on GitLab](https://gitlab.com/grapegravity/tech-audit-bookmarklet) or [Try it out](http://grapegravity.github.io/tech-audit-bookmarklet)
+[View on GitLab](https://gitlab.com/grapegravity/tech-audit-bookmarklet) or [Try it out](https://grapegravity.github.io/tech-audit-bookmarklet)
 
 ### Canvas Dither
 
@@ -52,7 +52,7 @@ Uses modern web standards to accept an image and then render it in several diffe
 
 Initially written as an exercise when I discovered how the alogithm for Atkinson Dithering worked.
 
-[View on GitLab](https://gitlab.com/grapegravity/canvas-dither) or [View Demo](http://grapegravity.github.io/canvas-dither/)
+[View on GitLab](https://gitlab.com/grapegravity/canvas-dither) or [View Demo](https://grapegravity.github.io/canvas-dither/)
 
 ### Fractal Thing
 
@@ -60,7 +60,7 @@ Javascript and HTML5 canvas, 2012
 
 Done as a programming exercise, this is a Mandelbrot fractal renderer written in HTML5 an canvas and standard Javascript.
 
-[View on GitLab](https://gitlab.com/grapegravity/fractal-thing) or [View Demo](http://grapegravity.github.io/fractal-thing/)
+[View on GitLab](https://gitlab.com/grapegravity/fractal-thing) or [View Demo](https://grapegravity.github.io/fractal-thing/)
 
 ## Python
 
@@ -130,4 +130,4 @@ jQuery and HTML5 canvas, 2012 (Fork)
 
 A project intended to solve a dilemma myself and my housemate have - which tea to have! Forked from an existing jQuery-based wheel game project.
 
-[View on GitHub](https://github.com/grapegravity/jquery-teawheel) or [View Demo](http://grapegravity.github.com/jquery-teawheel/)
+[View on GitHub](https://github.com/grapegravity/jquery-teawheel) or [View Demo](https://grapegravity.github.io/jquery-teawheel/)
