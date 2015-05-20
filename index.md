@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Welcome.
+## Welcome
 
 I **love** technology and Iʼm always looking for new and better ways to use it.
 
