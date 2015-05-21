@@ -68,7 +68,7 @@ a:focus {
 h1 {
   margin: 0;
   font-size: 4em;
-  line-height: 0.85em;
+  line-height: .85em;
   display: inline-block;
 }
 
@@ -115,12 +115,13 @@ header p {
 .scaffolding {
   max-width: 28em;
   text-align: justify;
-  margin: 0 0.5em 4em 0.5em;
+  margin: 0 .5em 4em .5em;
 }
 
 code,
 pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: .95em;
 }
 
 .copyright {

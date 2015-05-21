@@ -18,7 +18,7 @@ A library of UI components that we use at Macropod, which I'm heavily involved i
 
 Various, 2012 - Present
 
-A constantly evolving collection of configurations for my UNIX-based computers.
+A constantly evolving collection of configurations for my Unix-based computers.
 
 Works across platforms with handy exclusion of settings on platforms which are incompatible with them, and supports both `zsh` and `bash`.
 
