@@ -5,7 +5,7 @@
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 12pt;
   min-height: 100%;
   min-height: 100vh;
   margin: 0;
@@ -19,6 +19,30 @@ body {
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 14pt;
+  }
+}
+
+@media (min-width: 960px) and (min-height: 768px) {
+  body {
+    font-size: 16pt;
+  }
+}
+
+@media (min-width: 1024px) and (min-height: 768px) {
+  body {
+    font-size: 18pt;
+  }
+}
+
+@media (min-width: 1280px) and (min-height: 768px) {
+  body {
+    font-size: 20pt;
+  }
+}
+
 body,
 header {
   display: block;
@@ -28,18 +52,6 @@ header {
   -webkit-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 960px) and (min-height: 768px) {
-  body {
-    font-size: 20px;
-  }
 }
 
 a:link,
@@ -55,15 +67,9 @@ a:focus {
 
 h1 {
   margin: 0;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 0.85em;
   display: inline-block;
-}
-
-@media (min-width: 480px) {
-  h1 {
-    font-size: 4em;
-  }
 }
 
 header {
@@ -81,6 +87,13 @@ header {
 
 header div {
   pointer-events: all;
+  font-size: .75em;
+}
+
+@media (min-width: 480px) {
+  header div {
+    font-size: 1em;
+  }
 }
 
 header h1 {
@@ -96,7 +109,7 @@ header p {
   font-size: 1.25em;
   margin: 0;
   line-height: 1.1em;
-  text-indent: .8em;
+  padding-left: .8em;
 }
 
 .scaffolding {
