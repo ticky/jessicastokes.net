@@ -17,6 +17,8 @@ Recently, however, it's become obvious that this separation isn't doing a great 
 
 I'm becoming increasingly social within (and outside) the industry, and the inactivity on what has become the de facto standard social environment is starting to feel like a poor view of who and what I am. @grapegravity has awkwardly few Tweets for a girl who describes herself as "a bit of a Twitter addict," avoids following many of the people I do interact with to avoid crosstalk, and is now feeling like an awkward, now-pointless aberration of a time long gone.
 
+Besides all that, whilst the @grapegravity name is a cute nod to Mac OS 9, it's also sort of unimaginative, difficult to pronounce (and easy to confuse for unrelated things, particularly over a telephone).
+
 So, now, I think it's time to drop the façade.
 
 **My Twitter account is [@ticky](https://twitter.com/ticky).**
