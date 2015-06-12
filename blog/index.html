@@ -1,9 +1,11 @@
 ---
+title: Blog
 layout: default
 ---
 
 <h2>Blog</h2>
 
+{% if site.posts.size > 0 %}
 {% for post in paginator.posts %}
 <article>
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -12,7 +14,12 @@ layout: default
   {{ post.content }}
 </article>
 {% endfor %}
+{% else %}
+<p>There are no blog posts here (yet!).</p>
+<p>I suppose you chould <a href="/">head home</a> or <a href="https://twitter.com/{{ site.accounts.twitter }}">bug me on Twitter</a>!</p>
+{% endif %}
 
+{% if paginator.previous_page or paginator.next_page %}
 <div class="pagination">
   {% if paginator.previous_page %}
   <span class="previous">
@@ -25,3 +32,4 @@ layout: default
   </span>
   {% endif %}
 </div>
+{% endif %}

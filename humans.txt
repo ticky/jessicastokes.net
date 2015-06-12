@@ -7,7 +7,7 @@ extends: false
 
 # TEAM
 
-    Jessica Stokes -- Developer -- @grapegravity
+    Jessica Stokes -- Developer -- @{{ site.accounts.twitter }}
 
 # THANKS
 

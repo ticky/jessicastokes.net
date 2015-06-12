@@ -121,13 +121,18 @@ header p {
   padding: 0 .5em 4em .5em;
 }
 
-article + article:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: .5px;
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 15%, rgba(40,40,40,1) 15%, rgba(251,251,251,0) 100%);
+article + article {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: .1em solid #ddd;
+}
+
+article + article > :first-child {
+  margin-top: 0;
+}
+
+article > :last-child {
+  margin-bottom: 0;
 }
 
 article h1 + .meta,
