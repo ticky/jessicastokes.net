@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "On Identity"
-date:   2015-07-11 09:00:00 +1000
+description: "Identity has been a strange, challenging thing. I spent a long time juggling identities. Now, it's time to drop the façade."
+date:   2015-07-17 12:30:00 +1000
 categories: meta identity personal trans transgender
 ---
 
@@ -20,5 +21,3 @@ So, now, I think it's time to drop the façade.
 **My Twitter account is [@ticky](https://twitter.com/ticky).**
 
 It's much more active, a bit more raw, covers more topics, and is nearly infinitely more "_me_." Sometimes it's technical, sometimes it's flirty, but hey, this is who and what I am.
-
-Likewise, my [GitLab](https://gitlab.com/u/ticky) and [GitHub](https://github.com/ticky) profiles have been updated to use this handle (interestingly, this was my original GitHub handle, back before I started using GitHub for work purposes). My website's URL won't change; it'll remain <jessicastokes.net>.
