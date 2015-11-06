@@ -5,7 +5,7 @@ date:   2015-11-06 11:30:00 +1100
 categories: meta identity personal trans transgender
 ---
 
-It occurred to me recently that the letter I sent to my parents when I came out might be something other trans people might find useful. I'm going to post it here in the hopes that it's useful to someone.
+It occurred to me recently that I never shared the letter I sent to my parents when I came out. I'm going to post it here in the hopes that it's useful to other trans people.
 
 I sent this on the 23rd of July 2014 (and yes, if you follow the link, I livetweeted the walk to the post office 💜)
 
