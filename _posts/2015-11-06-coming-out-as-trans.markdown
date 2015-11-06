@@ -7,18 +7,9 @@ categories: meta identity personal trans transgender
 
 It occurred to me recently that I never shared the letter I sent to my parents when I came out. I'm going to post it here in the hopes that it's useful to other trans people.
 
-I sent this on the 23rd of July 2014 (and yes, if you follow the link, I livetweeted the walk to the post office 💜)
+I [sent this](https://twitter.com/ticky/status/491830156349026305) on the 23rd of July 2014 (and yes, if you follow the link, I livetweeted the walk to the post office 💜)
 
-<div>
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr">(Proof) <a href="http://t.co/NJSz8bxG7i">pic.twitter.com/NJSz8bxG7i</a></p>&mdash; Jessica (@ticky) <a href="https://twitter.com/ticky/status/491830156349026305">July 23, 2014</a></blockquote>
-</div>
-
-Once it arrived, my parents were unanimously supportive and wonderful
-
-<div>
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="und" dir="ltr">!!!!!!!!!!!!!!!!!!!!! ❤️❤️❤️❤️ <a href="http://t.co/49dCNbyiTv">pic.twitter.com/49dCNbyiTv</a></p>&mdash; Jessica (@ticky) <a href="https://twitter.com/ticky/status/492626215006511104">July 25, 2014</a></blockquote>
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr">My mum, demonstrating that she is *literally* the best. ❤️❤️❤️❤️❤️❤️ <a href="http://t.co/masXmmH7Qz">pic.twitter.com/masXmmH7Qz</a></p>&mdash; Jessica (@ticky) <a href="https://twitter.com/ticky/status/492836373842251776">July 26, 2014</a></blockquote>
-</div>
+Once it arrived, my parents were unanimously [supportive](https://twitter.com/ticky/status/492626215006511104) and [wonderful](https://twitter.com/ticky/status/492836373842251776)!
 
 So please know, your parents can definitely be supportive of you. 💜
 

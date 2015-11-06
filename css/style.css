@@ -207,10 +207,6 @@ blockquote {
   font-size: .8em;
 }
 
-.twitter-tweet.twitter-tweet-rendered {
-  margin: 0 auto;
-}
-
 code,
 pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
