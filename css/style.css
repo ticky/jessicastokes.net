@@ -200,6 +200,17 @@ article h3 + .meta {
   text-align: right;
 }
 
+blockquote {
+  margin: 0;
+  border-left: .1em solid #777;
+  padding-left: .5em;
+  font-size: .8em;
+}
+
+.twitter-tweet.twitter-tweet-rendered {
+  margin: 0 auto;
+}
+
 code,
 pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
