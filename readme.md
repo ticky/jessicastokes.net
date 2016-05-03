@@ -2,11 +2,13 @@
 
 A simple Jekyll-based site. Replaces an entirely static site which existed from 2009 to 2013.
 
+## Requirements
+
+Currently built against Jekyll 2.5.3. Looking to streamline this and make it more predictable (and upgrade to a newer version!) in the future.
+
 ## Building
 
-Requires nothing more than a basic installation of [Jekyll](http://jekyllrb.com).
-
-Just run `jekyll serve -w` from the main directory and the site will be available on port `4000`.
+Run `jekyll serve -w` from the main directory and the site will be available on port `4000`.
 
 ## Copyright
 

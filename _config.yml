@@ -1,7 +1,7 @@
 name: Jessica Stokes
-description: 'Jessica Stokes is a 24 year old developer in Melbourne, Australia'
+description: 'Jessica Stokes is a software developer from Melbourne, Australia'
 url: https://jessicastokes.net
-pygments: true
+highlighter: pygments
 timezone: Australia/Melbourne
 exclude: ['readme.md']
 paginate: 5
@@ -14,3 +14,4 @@ accounts:
   github: ticky
   gitlab: ticky
   twitter: ticky
+hireable: true

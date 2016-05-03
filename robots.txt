@@ -1,2 +1,8 @@
+---
+extends: false
+---
 User-agent: *
+{% if site.hireable == false %}# Don't allow crawling CV pages when not-hireable
+Disallow: /cv/
 Disallow: /resume/
+# (That said, if you're looking here, feel free to check it out anyway (it's still there!) and get in touch; you might well be the kind of person I wanna work with ;P){% endif %}
