@@ -4,11 +4,15 @@ A simple Jekyll-based site. Replaces an entirely static site which existed from 
 
 ## Requirements
 
-Currently built against Jekyll 2.5.3. Looking to streamline this and make it more predictable (and upgrade to a newer version!) in the future.
+This site uses [`rbenv`](https://github.com/rbenv/rbenv#installation) to manage Ruby versions, and [Bundler](http://bundler.io) for gem management.
 
 ## Building
 
-Run `jekyll serve -w` from the main directory and the site will be available on port `4000`.
+In order to build you will need `rbenv` running in your shell, and to switch into the project directory.
+
+To install dependencies, `bundle install`.
+
+Once dependencies are installed, run `bundle exec jekyll serve -w`, and the site will be available on port `4000`.
 
 ## Copyright
 

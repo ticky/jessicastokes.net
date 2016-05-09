@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+SITE_BUILD="$1"
+
+eval "$(rbenv init -)"
+
+echo "Installing Dependencies..."
+echo
+
+if ! rbenv which bundler >/dev/null 2>&1; then
+  echo "• Installing Bundler..."
+  gem install bundler -v 1.12.3;
+fi
+
+echo "• Installing gems..."
+bundle install
+echo
+echo "Building Site..."
+echo
+bundle exec jekyll build -d "$SITE_BUILD"
