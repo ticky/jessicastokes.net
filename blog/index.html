@@ -6,14 +6,11 @@ layout: default
 <h2>Blog</h2>
 
 {% if site.posts.size > 0 %}
-{% for post in paginator.posts %}
-<article>
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p class="meta">{{ post.date | date_to_string }}</p>
-
-  {{ post.content }}
-</article>
-{% endfor %}
+<ul class="blog-posts">
+  {% for post in paginator.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a><span class="meta">{{ post.date | date_to_string }}</span></li>
+  {% endfor %}
+</ul>
 {% else %}
 <p>There are no blog posts here (yet!).</p>
 <p>I suppose you chould <a href="/">head home</a> or <a href="https://twitter.com/{{ site.accounts.twitter }}">bug me on Twitter</a>!</p>

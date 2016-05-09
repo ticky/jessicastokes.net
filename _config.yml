@@ -4,7 +4,7 @@ url: https://jessicastokes.net
 highlighter: pygments
 timezone: Australia/Melbourne
 exclude: ['readme.md']
-paginate: 5
+paginate: 12
 paginate_path: /blog/page-:num/
 permalink: /blog/:year/:month/:day/:title/
 kramdown:
