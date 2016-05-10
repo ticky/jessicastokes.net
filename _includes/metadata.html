@@ -1,11 +1,12 @@
-<!-- Metadata -->{% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% else if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+<!-- Metadata -->{% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}{% endcapture %}
+{% capture description %}{% if page.layout == 'post' %}{{ page.excerpt | strip_html | strip_newlines }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 <meta name="description" content="{{ description }}" />
 <!-- Twitter Summary Cards -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@{{ site.accounts.twitter }}" />
 <!-- Open Graph -->
-<meta property="og:type" content="{% if page.excerpt %}article{% else %}website{% endif %}" />
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
 <meta property="og:title" content="{{ title }}" />
 <meta property="og:description" content="{{ description }}" />
 <meta property="og:site_name" content="{{ site.name }}" />
-<meta property="og:locale" content="en_AU" />
+<meta property="og:locale" content="en_GB" />
