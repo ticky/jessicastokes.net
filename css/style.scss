@@ -1,0 +1,292 @@
+---
+---
+
+@import "mixins";
+
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  min-height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  color: #515151;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+
+  @media screen {
+    background-color: #fbfbfb;
+  }
+
+  @media screen and (min-width: 375px) {
+    font-size: 13pt;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14pt;
+  }
+
+  @media screen and (min-width: 960px) and (min-height: 768px) {
+    font-size: 16pt;
+  }
+
+  @media screen and (min-width: 1024px) and (min-height: 768px) {
+    font-size: 18pt;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 768px) {
+    font-size: 20pt;
+  }
+}
+
+body,
+header,
+.pagination {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+}
+
+body,
+header {
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+
+a {
+  &:link,
+  &:visited {
+    color: #893ff4;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  @media not screen {
+    &[href] {
+      &:after {
+        content: ' (https://jessicastokes.net/' attr(href) ')';
+        font-size: .9em;
+
+        header h1 & {
+          content: '';
+        }
+      }
+    }
+
+    &[href^="http"]:after,
+    &[href^="mailto"]:after {
+      content: ' (' attr(href) ')';
+    }
+
+    &[href^="/"]:after {
+      content: ' (https://jessicastokes.net' attr(href) ')';
+    }
+
+    &[href^="//"]:after {
+      content: ' (https:' attr(href) ')';
+    }
+  }
+}
+
+h2 {
+  font-size: inherit;
+  color: #893ff4;
+  margin-bottom: 0;
+
+  + p {
+    margin-top: 0;
+  }
+}
+
+h3 {
+  font-size: inherit;
+  display: inline;
+}
+
+.blog-posts > li > a + .meta:before,
+h3:after {
+  content: ' ✶ ';
+  color: black;
+  text-decoration: none;
+}
+
+h3 + p {
+  display: inline;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  padding-top: .25em;
+  padding-bottom: 3em;
+  margin-bottom: -2em;
+  text-align: left;
+  pointer-events: none;
+
+  @media screen {
+    position: -webkit-sticky;
+    position: sticky;
+    background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 10%, rgba(251,251,251,0.8) 65%, rgba(251,251,251,0) 100%);
+  }
+
+  div {
+    pointer-events: all;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 1.82em;
+    font-weight: normal;
+    line-height: .9em;
+
+    a {
+      display: inline-block;
+      padding-top: 3.4em;
+      background: url(/img/avatar-160@2x.png) no-repeat top center/3.3em;
+
+      @include media-screen {
+        background-image: url(/img/avatar-88.png);
+      }
+
+      @include media-screen-retina {
+        background-image: url(/img/avatar-88@2x.png);
+      }
+
+      @include media-screen("min-device-width: 320px") {
+        background-image: url(/img/avatar-104.png);
+      }
+
+      @include media-screen-retina("min-device-width: 320px") {
+        background-image: url(/img/avatar-104@2x.png);
+      }
+
+      @include media-screen("min-device-width: 768px") {
+        background-image: url(/img/avatar-112.png);
+      }
+
+      @include media-screen-retina("min-device-width: 768px") {
+        background-image: url(/img/avatar-112@2x.png);
+      }
+
+      @include media-screen("min-device-width: 960px") {
+        background-image: url(/img/avatar-128.png);
+      }
+
+      @include media-screen-retina("min-device-width: 960px") {
+        background-image: url(/img/avatar-128@2x.png);
+      }
+
+      @include media-screen("min-device-width: 1024px") {
+        background-image: url(/img/avatar-144.png);
+      }
+
+      @include media-screen-retina("min-device-width: 1024px") {
+        background-image: url(/img/avatar-144@2x.png);
+      }
+
+      @include media-screen("min-device-width: 1280px") {
+        background-image: url(/img/avatar-160.png);
+      }
+
+      @include media-screen-retina("min-device-width: 1280px") {
+        background-image: url(/img/avatar-160@2x.png);
+      }
+    }
+  }
+}
+
+.scaffolding {
+  width: 100%;
+  text-align: justify;
+  padding: 0 .5em 4em .5em;
+
+  @media screen {
+    max-width: 28em;
+  }
+}
+
+.blog-posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+article > :last-child {
+  margin-bottom: 0;
+}
+
+li > .meta,
+article h1 + .meta {
+  white-space: nowrap;
+}
+
+.pagination {
+  margin: 2em;
+  font-size: .9em;
+
+  .previous,
+  .next {
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+  }
+
+  .previous {
+    text-align: left;
+  }
+
+  .next {
+    text-align: right;
+  }
+}
+
+blockquote {
+  margin: 0;
+  border-left: .1em solid #777;
+  padding-left: .5em;
+  font-size: .8em;
+}
+
+code,
+pre {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: .95em;
+}
+
+.copyright {
+  font-size: .9em;
+  text-align: center;
+  margin-bottom: 0;
+
+  input {
+    display: none;
+
+    @media screen {
+      ~ span.extra-info {
+        display: none;
+      }
+
+      &:checked ~ span.extra-info {
+        display: inline;
+      }
+    }
+  }
+
+  .extra-info {
+    font-size: .8em;
+  }
+}

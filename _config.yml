@@ -3,6 +3,8 @@ description: 'Jessica Stokes is a software developer from Melbourne, Australia'
 url: https://jessicastokes.net
 highlighter: pygments
 gems: [jekyll-paginate]
+sass:
+  style: compressed
 timezone: Australia/Melbourne
 exclude: ['Gemfile', 'Gemfile.lock', 'readme.md']
 paginate: 12
