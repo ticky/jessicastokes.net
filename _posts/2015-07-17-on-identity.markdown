@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Identity"
-description: "Identity has been a strange, challenging thing. I spent a long time juggling identities. Now, it's time to drop the façade."
+excerpt: "Identity has been a strange, challenging thing. I spent a long time juggling identities. Now, it's time to drop the façade."
 date:   2015-07-17 12:30:00 +1000
 categories: meta identity personal trans transgender announcements
 ---

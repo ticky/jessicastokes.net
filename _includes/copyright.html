@@ -1,5 +1,4 @@
-{% capture generatedAt %}Site last generated {{ site.time | date: "%b %-d, %I:%M %P %Z" }}. Powered by Jekyll.{% endcapture %}
-<!-- Copyright -->
+<!-- Copyright -->{% capture generatedAt %}Site last generated {{ site.time | date: "%b %-d, %I:%M %P %Z" }}. Powered by Jekyll.{% endcapture %}
 <p class="copyright">
   <label>
     <input type="checkbox" />&copy; <span title="{{generatedAt}}">{{ site.time | date: "%Y" }}</span> {{ site.name }}<br/>
