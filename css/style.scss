@@ -1,9 +1,26 @@
 ---
 ---
 
-@import "mixins";
-
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$foreground-color: #515151;
 $screen-background-color: #fbfbfb;
+
+$accent-color: #893ff4;
+
+$min-font-size: 14.666;
+$min-page-width: 320;
+$max-font-size: 26.666;
+$max-page-width: 1280;
+
+$header-font-scale: 1.82em;
+$header-image-scale: 3.3em;
+$header-image-margin: .1em;
+
+$blockquote-padding: .5em;
+$blockquote-border-width: .1em;
+
+@import "webfonts";
+@import "mixins";
 
 * {
   box-sizing: border-box;
@@ -11,41 +28,25 @@ $screen-background-color: #fbfbfb;
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 11pt;
+  font-family: $font-stack;
   min-height: 100%;
   min-height: 100vh;
   margin: 0;
-  color: #515151;
+  color: $foreground-color;
   -webkit-align-items: center;
-  -moz-align-items: center;
   align-items: center;
   -webkit-flex-direction: column;
-  -moz-flex-direction: column;
   flex-direction: column;
+
+  @include dynamic-font-size(
+    $min-font-size: $min-font-size,
+    $min-page-width: $min-page-width,
+    $max-font-size: $max-font-size,
+    $max-page-width: $max-page-width
+  );
 
   @media screen {
     background-color: $screen-background-color;
-  }
-
-  @media screen and (min-width: 375px) {
-    font-size: 13pt;
-  }
-
-  @media screen and (min-width: 768px) {
-    font-size: 14pt;
-  }
-
-  @media screen and (min-width: 960px) and (min-height: 768px) {
-    font-size: 16pt;
-  }
-
-  @media screen and (min-width: 1024px) and (min-height: 768px) {
-    font-size: 18pt;
-  }
-
-  @media screen and (min-width: 1280px) and (min-height: 768px) {
-    font-size: 20pt;
   }
 }
 
@@ -54,21 +55,19 @@ header,
 .pagination {
   display: block;
   display: -webkit-flex;
-  display: -moz-flex;
   display: flex;
 }
 
 body,
 header {
   -webkit-justify-content: center;
-  -moz-justify-content: center;
   justify-content: center;
 }
 
 a {
   &:link,
   &:visited {
-    color: #893ff4;
+    color: $accent-color;
     text-decoration: none;
   }
 
@@ -77,36 +76,17 @@ a {
     text-decoration: underline;
   }
 
-  @media not screen {
-    &[href] {
-      &:after {
-        content: ' (https://jessicastokes.net/' attr(href) ')';
-        font-size: .9em;
+  @include printable-hyperlink('jessicastokes.net');
 
-        header h1 & {
-          content: '';
-        }
-      }
-    }
-
-    &[href^="http"]:after,
-    &[href^="mailto"]:after {
-      content: ' (' attr(href) ')';
-    }
-
-    &[href^="/"]:after {
-      content: ' (https://jessicastokes.net' attr(href) ')';
-    }
-
-    &[href^="//"]:after {
-      content: ' (https:' attr(href) ')';
-    }
+  header h1 &[href]:after {
+    // Don't print hyperlink on heading
+    content: '';
   }
 }
 
 h2 {
   font-size: inherit;
-  color: #893ff4;
+  color: $accent-color;
   margin: 0;
 
   + p {
@@ -153,14 +133,14 @@ header {
 
   h1 {
     margin: 0;
-    font-size: 1.82em;
+    font-size: $header-font-scale;
     font-weight: normal;
     line-height: .9em;
 
     a {
       display: inline-block;
-      padding-top: 3.4em;
-      background: url(/img/avatar-160@2x.png) no-repeat top center/3.3em;
+      padding-top: $header-image-scale + $header-image-margin;
+      background: none no-repeat top center/$header-image-scale;
 
       @include media-screen {
         background-image: url(/img/avatar-88.png);
@@ -209,6 +189,8 @@ header {
       @include media-screen-retina("min-device-width: 1280px") {
         background-image: url(/img/avatar-160@2x.png);
       }
+
+      background-image: url(/img/avatar-160@2x.png);
     }
   }
 }
@@ -216,7 +198,7 @@ header {
 .scaffolding {
   width: 100%;
   text-align: justify;
-  padding: .5em .5em 4em .5em;
+  padding: .5em 1em 4em 1em;
 
   @media screen {
     max-width: 28em;
@@ -249,7 +231,6 @@ article h2 + .meta {
   .previous,
   .next {
     -webkit-flex: 1;
-    -moz-flex: 1;
     flex: 1;
   }
 
@@ -263,9 +244,10 @@ article h2 + .meta {
 }
 
 blockquote {
-  margin: 0;
-  border-left: .1em solid #777;
-  padding-left: .5em;
+  margin: 0 (-.5 * ($blockquote-padding + $blockquote-border-width));
+  border-left: $blockquote-border-width solid #777;
+  padding-left: $blockquote-padding;
+  padding-right: $blockquote-padding + $blockquote-border-width;
 }
 
 code,

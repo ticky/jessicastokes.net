@@ -1,0 +1,23 @@
+@mixin printable-hyperlink($domain: 'your-domain.here', $protocol: 'https') {
+  @media not screen {
+    &[href] {
+      &:after {
+        content: ' (#{$protocol}://#{$domain}/' attr(href) ')';
+        font-size: .9em;
+      }
+    }
+
+    &[href^="http"]:after,
+    &[href^="mailto"]:after {
+      content: ' (' attr(href) ')';
+    }
+
+    &[href^="/"]:after {
+      content: ' (#{$protocol}://#{$domain}' attr(href) ')';
+    }
+
+    &[href^="//"]:after {
+      content: ' (#{$protocol}:' attr(href) ')';
+    }
+  }
+}

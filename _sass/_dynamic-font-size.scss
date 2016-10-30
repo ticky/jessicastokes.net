@@ -1,0 +1,17 @@
+@mixin dynamic-font-size($min-font-size, $min-page-width, $max-font-size, $max-page-width) {
+  $min-font-size-pixels:  $min-font-size  * 1px;
+  $min-page-width-pixels: $min-page-width * 1px;
+  $max-font-size-pixels:  $max-font-size  * 1px;
+  $max-page-width-pixels: $max-page-width * 1px;
+
+  font-size: $min-font-size-pixels;
+
+  @media (min-width: $min-page-width-pixels) {
+    // linearly scale font size from $min-font-size to $max-font-size between $min-page-width and $max-page-width
+    font-size: calc(#{$min-font-size-pixels} + (#{$max-font-size} - #{$min-font-size}) * (100vw - #{$min-page-width-pixels}) / (#{$max-page-width} - #{$min-page-width}));
+  }
+
+  @media (min-width: $max-page-width-pixels) {
+    font-size: $max-font-size-pixels;
+  }
+}
