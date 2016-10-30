@@ -8,7 +8,7 @@
 
   @media (min-width: $min-page-width-pixels) {
     // linearly scale font size from $min-font-size to $max-font-size between $min-page-width and $max-page-width
-    font-size: calc(#{$min-font-size-pixels} + (#{$max-font-size} - #{$min-font-size}) * (100vw - #{$min-page-width-pixels}) / (#{$max-page-width} - #{$min-page-width}));
+    font-size: calc(#{$min-font-size-pixels} + (#{$max-font-size} - #{$min-font-size}) / (#{$max-page-width} - #{$min-page-width}) * (100vw - #{$min-page-width-pixels}));
   }
 
   @media (min-width: $max-page-width-pixels) {
