@@ -15,7 +15,7 @@ So anyway, i cruised through the contents. Audacity Portable, GIMP Portable and 
 
 Then I noticed some programming I did back in the day, so I decided to share it with you. Because, you know -- you should care. duh.
 
-## Episode One: Pencil Shop Pro
+### Episode One: Pencil Shop Pro
 
 Pencil shop pro was an attempt at using mouse input (IE positioning, click state) to create something useful. Many people kinda failed at this, at most making something that told you where your cursor was on the page, but being the adventurous bastard I am, I (Along with friends Luke and Paul) decided to take on the big boys with my own image editing app.
 
@@ -43,7 +43,7 @@ Luckily, though, it's compatible with every windows version since '95!
 
 Props to Paul and Luke for letting me do all the work! =P
 
-## Episode Two: Über Calculator
+### Episode Two: Über Calculator
 
 Über Calculator was a simple project introducing us to VB .NET the following year. Obviously, the project was just to create a calculator with all the basic functions. Really simple, so i finished it in ten minutes. Maybe even 5. But then set out to pimp the bitch!
 
@@ -55,7 +55,7 @@ It handles Divide-By-Zero flawlessly. I really should just make it implode upon 
 
 And hell, it was interesting to code. I did lots of shortcutting and shit there. And worked out timers. All in .NET 1.1 (The original VS .NET)
 
-## Episode 3: The pizza Order Form
+### Episode 3: The pizza Order Form
 
 This came later the same year as the Über Calculator. It was, quite simply, to make a usable interface for ordering pizza. Why anyone would download a full on .NET app to order pizza is beyond me, but I tacked it, and, imho, tacked it well.
 
@@ -69,7 +69,7 @@ I may add to this later, if i can get Klick 'n Play working.
 
 EDIT: Aha! I found a working version! Now for part 4:
 
-## Episode 4: The Simpsons Platformer
+### Episode 4: The Simpsons Platformer
 
 With great disregard for copyright law, i present to you one of the first proper games I ever produced; The Simpsons Platformer, for Klick &amp; Play.
 
@@ -87,6 +87,6 @@ If you wait long enough, the Bees (The only enemy in the game) will start to bou
 
 Suffice to say, posting images is going to just be silly. This game is made to be ENJOYED :D. So, here, I present to you the first ever public release of *The Simpsons Platformer*. Please don't sue me, fox!
 
-[Download .7z from GSh@ii.net](http://members.ii.net/%7Egregstokes/ext/gshblog/dl/simpplat/simpplat.7z) -- Those who don't have Klick n Play (And i'm sure that's... all of you) can get it from [LittleDawg's Klick &amp; Play Page](http://members.tripod.com/%7ELittleDawg/knp.htm) - As far as I can tell, the only place on the whole internet with a woeking KnP binary.
+[Download](http://members.ii.net/%7Egregstokes/ext/gshblog/dl/simpplat/simpplat.7z) -- Those who don't have Klick n Play (And i'm sure that's... all of you) can get it from [LittleDawg's Klick &amp; Play Page](http://members.tripod.com/%7ELittleDawg/knp.htm) - As far as I can tell, the only place on the whole internet with a woeking KnP binary.
 
 *NOTICE: The Simpsons names, characters and graphics are used without permission from Twentieth Century Fox or any of its affiliates. The Simpsons is copyright and the property of Twentieth Century Fox.*
