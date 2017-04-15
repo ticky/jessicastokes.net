@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: https://grapegravity.github.io/canvas-dither/
+location: https://ticky.github.io/canvas-dither/
 ---
