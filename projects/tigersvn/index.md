@@ -1,4 +1,4 @@
 ---
 layout: redirect
-location: https://grapegravity.github.io/tigersvn/
+location: https://ticky.github.io/tigersvn/
 ---
