@@ -1,7 +1,9 @@
 ---
 ---
 
-$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Lucida Grande", Arial, sans-serif;
+$font-stack-monospace: "SF Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+
 $foreground-color: #515151;
 $screen-background-color: #fbfbfb;
 
@@ -245,8 +247,13 @@ blockquote {
 
 code,
 pre {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: $font-stack-monospace;
   font-size: .95em;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .copyright {
