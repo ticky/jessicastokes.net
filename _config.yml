@@ -1,7 +1,7 @@
 name: Jessica Stokes
 description: 'Jessica Stokes is a software developer from Melbourne, Australia'
 url: https://jessicastokes.net
-highlighter: pygments
+highlighter: rouge
 gems: [jekyll-paginate]
 sass:
   style: compressed
