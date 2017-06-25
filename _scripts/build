@@ -6,12 +6,16 @@ SITE_BUILD="$1"
 
 eval "$(rbenv init -)"
 
+echo "Installing Ruby..."
+echo
+rbenv install -s
+
 echo "Installing Dependencies..."
 echo
 
 if ! rbenv which bundler >/dev/null 2>&1; then
   echo "• Installing Bundler..."
-  gem install bundler -v 1.12.3;
+  gem install bundler
 fi
 
 echo "• Installing gems..."
