@@ -1,18 +1,18 @@
 # Jessica Stokes' Website
 
-A simple Jekyll-based site. Replaces an entirely static site which existed from 2009 to 2013.
+A simple Cobalt-based site, since 2019. Initially a Jekyll site, replacing an entirely static site which existed from 2009 to 2013.
 
 ## Requirements
 
-This site uses [`rbenv`](https://github.com/rbenv/rbenv#installation) to manage Ruby versions, and [Bundler](http://bundler.io) for gem management.
+This site uses [`Cobalt`](http://cobalt-org.github.io), and thus requires [Rust](https://www.rust-lang.org) to be installed.
 
 ## Building
 
-In order to build you will need `rbenv` running in your shell, and to switch into the project directory.
+You'll need [Rust installed](https://rustup.rs).
 
-To install dependencies, `bundle install`.
+Once Rust is installed, `cargo install cobalt-bin --features pagination-unstable --version "0.15.4"` to get Cobalt ready to go.
 
-Once dependencies are installed, run `bundle exec jekyll serve -w`, and the site will be available on port `4000`.
+Once Cobalt is installed, run `cobalt`, and the site will be available on port `3000`.
 
 ## Copyright
 
