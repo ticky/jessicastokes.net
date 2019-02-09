@@ -1,4 +1,5 @@
 ---
-layout: redirect
-location: https://ticky.github.io/tigersvn/
+layout: redirect.html
+data:
+  location: https://ticky.github.io/tigersvn/
 ---

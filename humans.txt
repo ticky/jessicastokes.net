@@ -1,20 +1,10 @@
----
-extends: false
----
 # The humans responsible & technology colophon
 # humanstxt.org
 
 
 # TEAM
 
-    Jessica Stokes -- Developer -- @{{ site.accounts.twitter }}
-
-# THANKS
-
-    * Jekyll team
-    * git team
-    * Panic for Transmit 4 (You guys rock)
-    * Sublime Text (Seriously the best text editor in the universe)
+    Jessica Stokes -- Developer -- @ticky
 
 # TECHNOLOGY COLOPHON
 

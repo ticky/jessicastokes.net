@@ -1,6 +1,3 @@
----
----
-
 $font-stack: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Lucida Grande", Arial, sans-serif;
 $font-stack-monospace: "SF Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 
@@ -218,6 +215,27 @@ article > :last-child {
 li > .meta,
 article h2 + .meta {
   white-space: nowrap;
+}
+
+.footnote-definition {
+  display: flex;
+  margin: 1em 0;
+
+  > sup.footnote-definition-label {
+    font-size: 1em;
+    vertical-align: baseline;
+    text-align: right;
+    min-width: 40px;
+    padding-right: .5em;
+
+    &:after {
+      content: '.'
+    }
+  }
+
+  > p {
+    margin: 0;
+  }
 }
 
 .pagination {

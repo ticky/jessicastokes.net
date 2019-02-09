@@ -6,7 +6,7 @@
       background-image: url(#{map-get($size, 'url')});
     }
 
-    @if map_has_key($size, 'url@2x') && map-get($size, 'url@2x') != map-get($last-size, 'url@2x') {
+    @if map_has_key($size, 'url@2x') and map-get($size, 'url@2x') != map-get($last-size, 'url@2x') {
       @include media-screen-retina(map-get($size, 'query')) {
         background-image: url(#{map-get($size, 'url@2x')});
       }

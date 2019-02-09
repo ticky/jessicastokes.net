@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "High School Programming"
-date:   2009-02-16 09:00:00 +0800
-categories: blast-from-the-past programming high-school
+layout: post.html
+title: High School Programming
+published_date: 2009-02-16 09:00:00 +0800
+categories:
+  - blast-from-the-past
+  - programming
+  - high-school
 ---
 
 _**Note**: This post was migrated from my long-defunct blog. All text below this line is unedited, save for referenced images being lost years ago due to the weird relationship between Blogger (where this post was originally published), Google+ and Picasa Web Albums (where the images resided)._

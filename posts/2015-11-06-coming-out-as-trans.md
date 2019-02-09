@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "How I came out to my parents as a trans woman"
-date:   2015-11-06 11:30:00 +1100
-categories: meta identity personal trans transgender
+layout: post.html
+title: "How I came out to my parents as a trans woman"
+published_date: 2015-11-06 11:30:00 +1100
+categories:
+  - meta
+  - identity
+  - personal
+  - trans
+  - transgender
 ---
 
 It occurred to me recently that I never shared the letter I sent to my parents when I came out. I'm going to post it here in the hopes that it's useful to other trans people.

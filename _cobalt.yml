@@ -1,0 +1,24 @@
+
+site:
+  title: Jessica Stokes
+  description: Jessica Stokes is a software developer from Melbourne, Australia
+  base_url: https://jessicastokes.net
+  data:
+    accounts:
+      email: hello@jessicastokes.net
+      github: ticky
+      gitlab: ticky
+      twitter: ticky
+    hireable: false
+posts:
+  rss: feed.xml
+  default:
+    permalink: /blog/{{year}}/{{month}}/{{day}}/{{slug}}/
+
+ignore:
+  - readme.md
+  - rust-toolchain
+
+template_extensions:
+  - md
+  - html

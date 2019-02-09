@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Sharing Steam Games between Operating Systems"
-date:   2009-08-01 09:00:00 +0800
-categories: blast-from-the-past computers steam games
+layout: post.html
+title: Sharing Steam Games between Operating Systems
+published_date: 2009-08-01 09:00:00 +0800
+categories:
+  - blast-from-the-past
+  - computers
+  - steam
+  - games
 ---
 
 _**Note**: This post was migrated from my long-defunct blog. All meaningful text below this line is unedited. The original publishing date of this post has been lost - it was published sometime between 2009 and 2010._

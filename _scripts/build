@@ -4,23 +4,22 @@ set -e
 
 SITE_BUILD="$1"
 
-eval "$(rbenv init -)"
-
-echo "Installing Ruby..."
-echo
-rbenv install -s
-
-echo "Installing Dependencies..."
+echo "Installing Rust..."
 echo
 
-if ! rbenv which bundler >/dev/null 2>&1; then
-  echo "• Installing Bundler..."
-  gem install bundler
+if ! rustup show >/dev/null 2>&1; then
+  echo "• Installing Rustup..."
+  curl "https://sh.rustup.rs" -sSf | sh
 fi
 
-echo "• Installing gems..."
-bundle install
+echo "• Installing current toolchain..."
+rustup toolchain install "$(cat rust-toolchain)"
+
+# if ! cobalt --version | grep -q "0.15.4"; then
+  echo "• Installing Cobalt..."
+  cargo install --force cobalt-bin --features pagination-unstable --version "0.15.4"
+# fi
 echo
 echo "Building Site..."
 echo
-bundle exec jekyll build -d "$SITE_BUILD"
+cobalt build -d "$SITE_BUILD"

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.html
 title: CV
 description: "Jessica Stokesʼ CV, available as a PDF"
 ---

@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "Pseudo-Administrator"
-date:   2009-02-03 09:00:00 +0800
-categories: blast-from-the-past computers
+layout: post.html
+title: Pseudo-Administrator
+published_date: 2009-02-03 09:00:00 +0800
+categories:
+  - blast-from-the-past
+  - computers
 ---
 
 _**Note**: This post was migrated from my long-defunct blog. All text below this line is unedited._

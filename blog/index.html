@@ -1,31 +1,33 @@
 ---
 title: Blog
-layout: default
+layout: default.html
+pagination:
+  include: All
+  per_page: 12
+  permalink: /{{parent}}/page-{{num}}/
+  order: Desc
+  sort_by:
+    - published_date
 ---
 
 <h2>Blog</h2>
 
-{% if site.posts.size > 0 %}
 <ul class="blog-posts">
-  {% for post in paginator.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a><span class="meta">{{ post.date | date_to_string }}</span></li>
+  {% for post in paginator.pages %}
+  <li><a href="{{ post.permalink }}">{{ post.title }}</a><span class="meta">{{ post.published_date | date: "%-d %b %Y" }}</span></li>
   {% endfor %}
 </ul>
-{% else %}
-<p>There are no blog posts here (yet!).</p>
-<p>I suppose you chould <a href="/">head home</a> or <a href="https://twitter.com/{{ site.accounts.twitter }}">bug me on Twitter</a>!</p>
-{% endif %}
 
-{% if paginator.previous_page or paginator.next_page %}
+{% if paginator.previous_index or paginator.next_index %}
 <div class="pagination">
-  {% if paginator.previous_page %}
+  {% if paginator.previous_index %}
   <span class="previous">
-    <a href="{{ paginator.previous_page_path }}">Previous Page</a>
+    <a href="/{{ paginator.previous_index_permalink }}">Previous Page</a>
   </span>
   {% endif %}
-  {% if paginator.next_page %}
+  {% if paginator.index < paginator.total_indexes %}
   <span class="next">
-    <a href="{{ paginator.next_page_path }}">Next Page</a>
+    <a href="/{{ paginator.next_index_permalink }}">Next Page</a>
   </span>
   {% endif %}
 </div>

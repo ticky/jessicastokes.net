@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Hello from CampJS V"
-date:   2015-05-22 21:00:00 +1000
-categories: meta
+layout: post.html
+title: Hello from CampJS V
+published_date: 2015-05-22 21:00:00 +1000
+categories:
+  - meta
 ---
 
 I'm writing this from [CampJS V](http://campjs.com)! At this event, I'm adding a blog to my site.

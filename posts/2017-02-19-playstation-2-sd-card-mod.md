@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  Setting up my PlayStation 2 to load games from an internal SD card
-date:   2017-02-19 12:04:00 +1100
-categories: games
+layout: post.html
+title: Setting up my PlayStation 2 to load games from an internal SD card
+published_date: 2017-02-19 12:04:00 +1100
+categories:
+  - games
 ---
 
 I recently discovered that the PlayStation 2[^1] can accept an IDE hard drive via the official Network Adapter accessory. With just a bit of software trickery, you can back up your games and launch them from it!
@@ -36,9 +37,15 @@ Once you've made it to that point, you can use [HDLoader Game Installer](http://
 I'm currently running a slightly updated version of this setup, and it's really nice being able to load up PS2 games without having to go find my discs! Combined with Logitech Cordless Action controllers, and the DVD Remote Control[^7], my PlayStation 2 can be started from the couch, and feels much more like the modern consoles I've grown accustomed to!
 
 [^1]: This includes all non-slim models released outside Japan, plus any non-slim Japanese console other than the SCPH-10000 and SCPH-15000. Instead of the Expansion Bay these two Japanese models included a PCMCIA slot which had a similar network adapter, but which used an external, non-user-serviceable hard drive enclosure. Any non-PCMCIA network adapter will suffice.
+
 [^2]: Unfortunately, the Network Adapter has fixed IDE and Molex power connectors, so many later-model drives are incompatible, if only phsyically. Modifications to the network adapter to move the connectors are possible, as the connectors are mounted on separate boards, but obviously given I didn't go down this route I won't cover this approach!
+
 [^3]: Much faster than the PlayStation 2's ATA-66 bus or 2x speed DVD-ROM drive, anyway! 😜
+
 [^4]: Particularly if I'm to be carting the PlayStation across the planet a few times 😅
+
 [^5]: Many cloned versions of the Network Adapter seem to exist, particularly on eBay. Many of them are even available with Serial ATA interfaces, however, the Serial ATA interface will almost invariably be via an adapter anyway, and many of these do not include any network functionality. I avoided these because I didn't want to complicate the setup!
+
 [^6]: You can also use Sony software known as HDDOSD or "Browser 2.00," which allows your games to be launched from the Sony menu, and means games can show up in the menu using their save icons, but attaining it is a bit complicated, so I won't cover it in this post!
+
 [^7]: The newer SCPH-10420 model, as it includes power and eject buttons, though it's only compatible with newer PlayStation 2s which include a built-in IR sensor!

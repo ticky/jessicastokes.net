@@ -1,7 +1,7 @@
-<!-- Copyright -->{% capture generatedAt %}Site last generated {{ site.time | date: "%b %-d, %I:%M %P %Z" }}. Powered by Jekyll.{% endcapture %}
+<!-- Copyright -->{% capture generatedAt %}Site last generated {{ 'now' | date: "%b %-d, %I:%M %P %Z" }}. Powered by Cobalt.{% endcapture %}
 <p class="copyright">
   <label>
-    <input type="checkbox" />&copy; <span title="{{generatedAt}}">{{ site.time | date: "%Y" }}</span> {{ site.name }}<br/>
-    <span class="extra-info">{{generatedAt}}</span>
+    <input type="checkbox" />&copy; <span title="{{generatedAt}}">{{ 'now' | date: "%Y" }}</span> {{ site.title }}<br/>
+    <span class="extra-info">Site last generated {{ 'now' | date: "%b %-d, %I:%M %P %Z" }}. Powered by Cobalt.</span>
   </label>
 </p>

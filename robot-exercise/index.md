@@ -1,4 +1,5 @@
 ---
-layout: redirect
-location: https://ticky.github.io/robot-exercise/
+layout: redirect.html
+data:
+  location: https://ticky.github.io/robot-exercise/
 ---

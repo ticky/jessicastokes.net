@@ -1,4 +1,5 @@
 ---
-layout: redirect
-location: /cv/
+layout: redirect.html
+data:
+  location: /cv/
 ---

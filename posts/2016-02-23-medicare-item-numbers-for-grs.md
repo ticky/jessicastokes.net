@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Medicare Item Numbers for GRS"
-date:   2016-02-23 18:39:43 +1100
-categories: tumblr transgender info
+layout: post.html
+title: Medicare Item Numbers for GRS
+published_date: 2016-02-23 18:39:43 +1100
+categories:
+  - tumblr
+  - transgender
+  - info
 ---
 
 Since my level of insurance cover was something that delayed my quest for GRS, I feel like it might be useful to someone to make known the Medicare item numbers associated with the procedure, at least as far as my surgeon (Dr Ives, in Melbourne) is concerned.
