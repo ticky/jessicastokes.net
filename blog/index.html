@@ -14,7 +14,7 @@ pagination:
 
 <ul class="blog-posts">
   {% for post in paginator.pages %}
-  <li><a href="{{ post.permalink }}">{{ post.title }}</a><span class="meta">{{ post.published_date | date: "%-d %b %Y" }}</span></li>
+  <li><a href="/{{ post.permalink }}">{{ post.title }}</a><span class="meta">{{ post.published_date | date: "%-d %b %Y" }}</span></li>
   {% endfor %}
 </ul>
 
