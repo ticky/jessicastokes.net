@@ -1,6 +1,7 @@
 ---
 layout: post.html
 title: Setting up my PlayStation 2 to load games from an internal SD card
+excerpt: I recently discovered that the PlayStation 2 can accept an IDE hard drive via the official Network Adapter accessory. With just a bit of software trickery, you can back up your games and launch them from it!
 published_date: 2017-02-19 12:04:00 +1100
 categories:
   - games
