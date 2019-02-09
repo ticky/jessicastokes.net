@@ -15,6 +15,10 @@ posts:
   default:
     permalink: /blog/{{year}}/{{month}}/{{day}}/{{slug}}/
 
+assets:
+  sass:
+    style: Compressed
+
 ignore:
   - readme.md
   - rust-toolchain
