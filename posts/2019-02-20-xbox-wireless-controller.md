@@ -8,7 +8,7 @@ categories:
 is_draft: true
 ---
 
-_**Note**: This post was originally authored on Jauary 16, 2017. For [utterly ridiculous technical reasons](https://github.com/ticky/jessicastokes.net/issues/4) I couldn't actually publish it at the time._
+_**Note**: This post was originally authored on January 16, 2017. For [utterly ridiculous technical reasons](https://github.com/ticky/jessicastokes.net/issues/4) I couldn't actually publish it at the time._
 
 I can recall remarking while playing hours of pass-the-pad _Sega GT 2002_ and _Jet Set Radio Future_ at my cousins' place in the mid-2000s, how comfortable and solid-feeling the original Xbox's controller (thereafter nicknamed the "Duke") felt.
 
