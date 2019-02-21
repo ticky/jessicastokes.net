@@ -18,11 +18,11 @@ Fast forward to about 2007, and I got rather into to _Halo 3_ on the Xbox 360, a
 
 By 2015, the Xbox One had revealed the latest tweak to Microsoft's[^1] design, fixing the battery lump, if not the wireless connectivity, and producing a very solid feeling controller overall, but one with a handful more flaws. The Xbox One controller's bumpers just didn't feel right versus those of the original Xbox 360 - those on the Xbox 360 were easily clicked while keeping index fingers on the triggers, while the Xbox One's attempt wouldn't budge when pushed at even a slight angle. While I played a few good hours of Halo on that controller, it didn't sway my opinion that the Xbox 360 was the best controller humanity had yet designed.
 
-Then, in late 2016, I discovered that the latest iteration of Microsoft's Xbox One controller, the [Xbox Wireless Controller](https://en.wikipedia.org/w/index.php?title=Xbox_One_Controller&oldid=758288266#Xbox_One_S_controller), includes Bluetooth connectivity! After a bit of reading, it sounded like it was indeed simple to make work with pretty much any platform, and that syncing with macOS in particular, was pretty painless.
+Then, in late 2016, I discovered that the latest iteration of Microsoft's Xbox One controller, the [Xbox Wireless Controller](https://en.wikipedia.org/w/index.php?title=Xbox_One_controller&oldid=883991966#2016_revision_(Xbox_One_S)), includes Bluetooth connectivity! After a bit of reading, it sounded like it was indeed simple to make work with pretty much any platform, and that syncing with macOS in particular, was pretty painless.
 
 Further reading revealed that you could [customise](https://www.theverge.com/2016/6/13/11911192/xbox-design-lab-custom-controllers-microsoft-e3-2016) a nice purple one[^2], so I did!
 
-It shipped to my fiancée's home in Vancouver surprisingly quickly[^3]!
+It shipped to my fiancée's[^3] home in Vancouver surprisingly quickly[^4]!
 
 Pairing it with my MacBook Pro via Bluetooh, I tried it on a handful of games. Unfortunately, despite the ease of syncing, the support for this kind of controller on the Mac platform is lacking. Support via USB is a little better, and via USB you can have it emulate an Xbox 360 Controller using the [Xbox Controller Driver for macOS](https://github.com/360Controller/360Controller), which improves compatibility significantly.
 
@@ -36,4 +36,6 @@ To my mind, the Xbox Wireless Controller is _absolutely_ the controller that fin
 
 [^2]: If you're lucky enough to have access to a postal address within the United States or Canada - this restriction existing despite the product shipping from Dongguan, China in either case... weird
 
-[^3]: Even if I didn't get to appreciate it much from Melbourne, where I remained for a few more weeks 😅
+[^3]: We've since gotten married, but I don't want to edit this post a heap ☺️
+
+[^4]: Even if I didn't get to appreciate it much from Melbourne, where I remained for a few more weeks 😅
