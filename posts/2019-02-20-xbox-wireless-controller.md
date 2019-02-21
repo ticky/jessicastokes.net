@@ -2,7 +2,7 @@
 layout: post.html
 title: The Xbox Wireless Controller
 excerpt: I write far too many words about a game controller I like using.
-published_date: 2019-02-20 22:00:00 -0800
+published_date: 2019-02-21 09:04:00 -0800
 categories:
   - games
 is_draft: true
