@@ -1,11 +1,13 @@
 ---
-layout: post
-title:  PlayStation 2 HD Boot Quick-start
-date:   2017-02-23 22:32:00 +1100
-categories: games playstation
+layout: post.html
+title: PlayStation 2 HD Boot Quick-start
+published_date: 2017-02-23 22:32:00 +1100
+categories:
+  - games
+  - playstation
 ---
 
-In [my last post]({% post_url 2017-02-19-playstation-2-sd-card-mod %}), I discussed how I got my PlayStation 2 booting from an internal SD card, and how you can run games from it. I've since prepared a super-simple quick-start image for getting up and running with PS2 HD booting.
+In [my last post](/blog/2017/02/19/playstation-2-sd-card-mod/), I discussed how I got my PlayStation 2 booting from an internal SD card, and how you can run games from it. I've since prepared a super-simple quick-start image for getting up and running with PS2 HD booting.
 
 ### Requirements
 
@@ -88,5 +90,6 @@ Once you're at the menu, press R1 to navigate to the HDBoot options, and select 
 
 Once this process completes, rebooting your PlayStation 2 should bring you to a Free HDBoot menu screen, and you're ready to explore!
 
-[^1]: Compatibility information is listed in [my last post]({% post_url 2017-02-19-playstation-2-sd-card-mod %})!
+[^1]: Compatibility information is listed in [my last post](/blog/2017/02/19/playstation-2-sd-card-mod/)!
+
 [^2]: If there are two, you want the second one.
