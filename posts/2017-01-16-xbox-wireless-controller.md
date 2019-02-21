@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  The Xbox Wireless Controller
-date:   2017-01-16 22:12:00 -0800
-categories: games
+layout: post.html
+title: The Xbox Wireless Controller
+published_date: 2017-01-16 22:12:00 -0800
+categories:
+  - games
+is_draft: true
 ---
 
 I can recall remarking while playing hours of pass-the-pad _Sega GT 2002_ and _Jet Set Radio Future_ at my cousins' place in the mid-2000s, how comfortable and solid-feeling the original Xbox's controller (thereafter nicknamed the "Duke") felt.
@@ -28,5 +30,7 @@ The controller's grips have a subtle texture to the back of them, which is a nic
 To my mind, the Xbox Wireless Controller is _absolutely_ the controller that finally knocks the Xbox 360 Controller off the top of the pedestal. Now I just wish I could use it with _everything_...
 
 [^1]: Maybe [really](https://segaretro.org/3D_Control_Pad) [Sega's](https://segaretro.org/Dreamcast_Controller), [I mean](https://en.wikipedia.org/wiki/Xbox_Controller), if you think too hard about it...
+
 [^2]: If you're lucky enough to have access to a postal address within the United States or Canada - this restriction existing despite the product shipping from Dongguan, China in either case... weird
+
 [^3]: Even if I didn't get to appreciate it much from Melbourne, where I remained for a few more weeks 😅
