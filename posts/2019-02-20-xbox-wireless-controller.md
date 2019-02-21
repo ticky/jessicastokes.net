@@ -5,7 +5,6 @@ excerpt: I write far too many words about a game controller I like using.
 published_date: 2019-02-21 09:04:00 -0800
 categories:
   - games
-is_draft: true
 ---
 
 _**Note**: This post was originally authored on January 16, 2017. For [utterly ridiculous technical reasons](https://github.com/ticky/jessicastokes.net/issues/4) I couldn't actually publish it at the time._
