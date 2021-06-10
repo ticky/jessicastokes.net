@@ -92,6 +92,11 @@ h2 {
   + p {
     margin-top: 0;
   }
+
+  + span + h3 {
+    display: inline-block;
+    margin-bottom: 0;
+  }
 }
 
 h3 {
@@ -110,6 +115,12 @@ h3:after {
 article h2,
 h3 + p {
   display: inline;
+}
+
+p + h3 {
+  display: block;
+  display: inline-block;
+  margin: 0;
 }
 
 header {
