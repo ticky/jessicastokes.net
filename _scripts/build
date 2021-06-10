@@ -2,6 +2,8 @@
 
 set -e
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
 SITE_BUILD="$1"
 
 echo "Installing Rust..."
@@ -11,8 +13,6 @@ if ! rustup show >/dev/null 2>&1; then
   echo "• Installing Rustup..."
   curl "https://sh.rustup.rs" -sSf | sh -s -- -y
 fi
-
-source $HOME/.cargo/env
 
 echo "• Installing current toolchain..."
 rustup toolchain install "$(cat rust-toolchain)"
