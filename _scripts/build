@@ -4,7 +4,14 @@ set -e
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
+COBALT_VERSION="0.16.5"
 SITE_BUILD="$1"
+
+if [ -z "${SITE_BUILD}" ]; then
+  SITE_BUILD="_site"
+  echo "No build directory provided; defaulting to '${SITE_BUILD}'"
+  echo
+fi
 
 echo "Installing Rust..."
 echo
@@ -17,11 +24,14 @@ fi
 echo "• Installing current toolchain..."
 rustup toolchain install "$(cat rust-toolchain)"
 
-# if ! cobalt --version | grep -q "0.16.5"; then
-  echo "• Installing Cobalt..."
-  cargo install --force cobalt-bin --version "0.16.5"
-# fi
+if cobalt --version | grep --invert-match --quiet "${COBALT_VERSION}"; then
+  echo "• Installing Cobalt v${COBALT_VERSION}..."
+  cargo install cobalt-bin --version "${COBALT_VERSION}"
+else
+  echo "• Cobalt v${COBALT_VERSION} is already installed"
+fi
+
 echo
 echo "Building Site..."
 echo
-cobalt build -d "$SITE_BUILD"
+cobalt build --destination "$SITE_BUILD"
