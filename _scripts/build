@@ -12,6 +12,8 @@ if ! rustup show >/dev/null 2>&1; then
   curl "https://sh.rustup.rs" -sSf | sh -s -- -y
 fi
 
+source $HOME/.cargo/env
+
 echo "• Installing current toolchain..."
 rustup toolchain install "$(cat rust-toolchain)"
 
