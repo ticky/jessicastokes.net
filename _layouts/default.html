@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>{{ site.title }}{% if page.title != 'Index' %} &mdash; {{ page.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    {% include touch-icons.html %}
-    {% include metadata.html %}
+    {% include "touch-icons.html" %}
+    {% include "metadata.html" %}
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="author" href="/humans.txt" />
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Blog" href="{{ site.base_url }}/feed.xml" />
@@ -20,7 +20,7 @@
     <div class="scaffolding">
       {{ page.content }}
 
-      {% include copyright.html %}
+      {% include "copyright.html" %}
     </div>
   </body>
 </html>

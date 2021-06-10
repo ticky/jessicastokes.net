@@ -19,5 +19,9 @@
     &[href^="//"]:after {
       content: ' (#{$protocol}:' attr(href) ')';
     }
+
+    &[href^="#"]:after {
+      content: '';
+    }
   }
 }

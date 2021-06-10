@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>{{ site.title }} &mdash; {{ page.title }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    {% include touch-icons.html %}
-    {% include metadata.html %}
+    {% include "touch-icons.html" %}
+    {% include "metadata.html" %}
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="author" href="/humans.txt" />
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Blog" href="{{ site.base_url }}/feed.xml" />
@@ -19,7 +19,7 @@
 
     <div class="scaffolding">
       <article>
-        <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2><span class="meta">{{ page.published_date | date: "%I:%M %P, %-d %b %Y" }}</span>
+        <h2><a href="/{{ page.permalink }}">{{ page.title }}</a></h2><span class="meta">{{ page.published_date | date: "%I:%M %P, %-d %b %Y" }}</span>
 
         {{ page.content }}
       </article>
@@ -28,7 +28,7 @@
         <a href="/blog">Blog Index</a>
       </div>
 
-      {% include copyright.html %}
+      {% include "copyright.html" %}
     </div>
   </body>
 </html>

@@ -15,9 +15,9 @@ fi
 echo "• Installing current toolchain..."
 rustup toolchain install "$(cat rust-toolchain)"
 
-# if ! cobalt --version | grep -q "0.15.4"; then
+# if ! cobalt --version | grep -q "0.16.5"; then
   echo "• Installing Cobalt..."
-  cargo install --force cobalt-bin --features pagination-unstable --version "0.15.4"
+  cargo install --force cobalt-bin --version "0.16.5"
 # fi
 echo
 echo "Building Site..."
