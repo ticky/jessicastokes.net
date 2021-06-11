@@ -138,7 +138,7 @@ header {
     background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 10%, rgba(251,251,251,0.8) 70%, rgba(251,251,251,0) 100%);
   }
 
-  div {
+  > * {
     pointer-events: all;
   }
 
