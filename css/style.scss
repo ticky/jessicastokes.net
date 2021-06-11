@@ -147,55 +147,6 @@ header {
     font-size: $header-font-scale;
     font-weight: normal;
     line-height: .9em;
-
-    a {
-      display: inline-block;
-      padding-top: $header-image-scale + $header-image-margin;
-      background: none no-repeat top center/$header-image-scale;
-      //-x-header-image-scale: ($header-font-scale * $header-image-scale / 1em / 1em);
-      // TODO: Calculate breakpoints for images based on their size
-      // TODO: Then generate images for breakpoints based on what sizes will actually exist
-
-      @include responsive-background-image(
-        $sizes: (
-          (
-            'width': 88,
-            'url': '/img/avatar-88.png',
-            'url@2x': '/img/avatar-88@2x.png'
-          ),
-          (
-            'width': 104,
-            'query': 'min-device-width: 320px',
-            'url': '/img/avatar-104.png',
-            'url@2x': '/img/avatar-104@2x.png'
-          ),
-          (
-            'width': 112,
-            'query': 'min-device-width: 640px',
-            'url': '/img/avatar-112.png',
-            'url@2x': '/img/avatar-112@2x.png'
-          ),
-          (
-            'width': 128,
-            'query': 'min-device-width: 850px',
-            'url': '/img/avatar-128.png',
-            'url@2x': '/img/avatar-128@2x.png'
-          ),
-          (
-            'width': 144,
-            'query': 'min-device-width: 1066px',
-            'url': '/img/avatar-144.png',
-            'url@2x': '/img/avatar-144@2x.png'
-          ),
-          (
-            'width': 160,
-            'query': 'min-device-width: 1280px',
-            'url': '/img/avatar-160.png',
-            'url@2x': '/img/avatar-160@2x.png'
-          )
-        )
-      )
-    }
   }
 }
 
