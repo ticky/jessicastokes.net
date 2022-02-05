@@ -1,8 +1,10 @@
 $font-stack: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Lucida Grande", Arial, sans-serif;
 $font-stack-monospace: "SF Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 
-$foreground-color: #515151;
-$screen-background-color: #fbfbfb;
+$foreground-color-light: #515151;
+$screen-background-color-light: #fbfbfb;
+$foreground-color-dark: #d8d8d8;
+$screen-background-color-dark: #222222;
 
 $accent-color: #893ff4;
 
@@ -32,7 +34,6 @@ body {
   min-height: 100%;
   min-height: 100vh;
   margin: 0;
-  color: $foreground-color;
   -webkit-align-items: center;
   align-items: center;
   -webkit-flex-direction: column;
@@ -45,8 +46,12 @@ body {
     $max-page-width: $max-page-width
   );
 
-  @media screen {
-    background-color: $screen-background-color;
+  color: $foreground-color-light;
+  @media screen { background-color: $screen-background-color-light; }
+
+  @media (prefers-color-scheme: dark) {
+    color: $foreground-color-dark;
+    @media screen { background-color: $screen-background-color-dark; }
   }
 }
 
@@ -110,6 +115,10 @@ h3:after {
   content: ' ✶ ';
   color: black;
   text-decoration: none;
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
 }
 
 article h2,
@@ -131,12 +140,6 @@ header {
   margin-bottom: -1.5em;
   text-align: left;
   pointer-events: none;
-
-  @media screen {
-    position: -webkit-sticky;
-    position: sticky;
-    background: linear-gradient(to bottom, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 10%, rgba(251,251,251,0.8) 70%, rgba(251,251,251,0) 100%);
-  }
 
   > * {
     pointer-events: all;
