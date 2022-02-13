@@ -1,0 +1,6 @@
+name: jessicastokes.net
+services:
+- name: web
+  git:
+    repo_clone_url: https://github.com/ticky/jessicastokes.net.git
+    branch: public
