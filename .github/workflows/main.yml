@@ -1,0 +1,37 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ public ]
+  pull_request:
+    branches: [ public ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Code
+        uses: actions/checkout@v2
+      
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: Install Cobalt
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: cobalt-bin --features pagination-unstable --version "0.15.5"
+
+      - name: Build Site
+        run: cobalt build
+
+      - name: Deploy
+        uses: digitalocean/app_action@v1.0.0
+        with:
+          app_name: jessicastokes.net
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
