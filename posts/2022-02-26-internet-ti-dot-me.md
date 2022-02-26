@@ -25,7 +25,7 @@ But the secret sauce is in the social metadata - linking to that time on Twitter
 is 19:00 PST, 22:00 EST, 03:00 UTC, 04:00 BMT, 12:00 JST, 16:00 NZDT
 
 
-<center><a href="https://internet-ti.me/@167"><img src="https://internet-ti.me/167.png" alt="internet-ti.me card for @167" width="512" style="max-width:100%" /></a></center>
+<center><a href="https://internet-ti.me/@167"><img src="/img/posts/2022-02-26-internet-ti-dot-me/167.png" alt="internet-ti.me card for @167" width="512" style="max-width:100%" /></a></center>
 </blockquote>
 
 I've been using Internet Time with these social embeds to organise events with friends for a while now, and this has been handy for sharing with people who are less Internet Time obsessed than I am 😅
