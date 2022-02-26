@@ -1,6 +1,7 @@
 ---
 layout: post.html
 title: internet-ti.me
+excerpt: I built a website to help with organising events using Internet Time
 published_date: 2022-02-26 09:30:00 -0800
 ---
 
