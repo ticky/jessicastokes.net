@@ -3,6 +3,12 @@ layout: post.html
 title: Preparing a Blender 3D model for texture painting on an iPad with Procreate
 excerpt: A quick rundown of how to export a Blender model into Procreate in order to paint textures
 published_date: 2022-02-27 11:50:00 -0800
+categories:
+  - blender
+  - computers
+  - tutorial
+  - games
+  - VRChat
 ---
 
 I've been working on custom texture painting on my [VRChat](https://vrchat.com) avatar[^1], and wanted to share my approach for getting the model into [Procreate](https://procreate.art) for iPad.
